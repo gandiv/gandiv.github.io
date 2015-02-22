@@ -390,6 +390,7 @@ LINK STYLES
 *********************/
 a, a:visited {
   color: #f01d4f;
+  text-decoration: none;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
@@ -507,7 +508,7 @@ nav.nav-menu {
 	background-image: url("patterns/banner-pattern_1.svg");
 	background-repeat: no-repeat;
 background-size: 50%;
-background-position-x: -200px;
+background-position: -200px 0;
 }
 
 }
@@ -720,7 +721,7 @@ cursor:pointer; }
 }
 
 .scrolling-button h4 {
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 7.5rem;
     transform: rotate(-45deg);
     -ms-transform: rotate(-45deg); /* IE 9 */
@@ -918,7 +919,7 @@ height: 80%;
 @media only screen and (max-width: 1060px) {
 	.about-me {
 		background-size: 60%;
-		background-position-x: -280px;
+		background-position: 280px 0;
 
 	}
 }
@@ -947,7 +948,7 @@ width: 150%;
 
 .about-me {
     background-size: 100%;
-    background-position-x: 0;
+    background-position: 0 0;
     background-repeat: repeat;
 }
 
@@ -1052,7 +1053,7 @@ width: 260%;
 font-size: 2rem;
 }
 .scrolling-button h4 {
-	font-weight: 400;
+	font-weight: 300;
 margin-top: 8.5rem;
 transform: rotate(-45deg);
     -ms-transform: rotate(-45deg); /* IE 9 */
@@ -1092,7 +1093,7 @@ width: 330%;}
 }
 @media only screen and (max-width:430px) {
 	.scrolling-button h4 {
-		font-weight: 400;
+		font-weight: 300;
 margin-top: 5.5rem;
 margin-left: -6%;
 background: none;
