@@ -416,12 +416,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
   font-size: 5.1rem;
   line-height: 2.5rem;
-  font-family: 'Roboto Slab' serif;
+  font-family: 'Roboto Slab', serif;
   color: #00305A;
    }
 
 h2, .h2 {
-  font-family: 'Roboto Slab' serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 4.0rem;
   line-height: 4.5rem;
   color:#fff;
@@ -429,24 +429,19 @@ h2, .h2 {
    }
 
 h3, .h3 {
-  font-family: 'Roboto Slab' serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 4.0rem;
   line-height: 2.0rem;
   color:#fff;
   }
 
 h4, .h4 {
-  font-family: 'Roboto Slab' serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 2.4rem;
   line-height: 2.0rem;
   color:#fff;
   }
 
-h5, .h5 {
-  font-size: 0.846em;
-  line-height: 2.09em;
-  text-transform: uppercase;
-  letter-spacing: 2px; }
 
 
 /*Modified CSS*/
@@ -467,7 +462,7 @@ h5, .h5 {
 
 .menu-options li {
     font-size: 2.2rem;
-    font-family: 'Roboto Slab' serif;
+    font-family: 'Roboto Slab', serif;
     margin-bottom: 0;
     margin-top: 0;
     line-height: 0;
@@ -672,6 +667,8 @@ textarea {
     width: 60%;
     border: 10px solid #fff;
     border-radius: 10px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
     /* text-align: center; */
     margin-top: 50px;
@@ -714,6 +711,8 @@ cursor:pointer; }
     width: 70%;
     height: 70%;
     transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     border-radius: 10px;
     opacity: 0;
     transition: top 1s, opacity 1.5s;
@@ -724,6 +723,8 @@ cursor:pointer; }
     font-weight: 400;
     margin-top: 7.5rem;
     transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
     margin-left: 0%;
     background: none;
 }
@@ -1054,6 +1055,8 @@ font-size: 2rem;
 	font-weight: 400;
 margin-top: 8.5rem;
 transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
 margin-left: -12%;
 background: none;
 }
@@ -1091,7 +1094,6 @@ width: 330%;}
 	.scrolling-button h4 {
 		font-weight: 400;
 margin-top: 5.5rem;
-transform: rotate(-45deg);
 margin-left: -6%;
 background: none;
 margin-top: 46%;
