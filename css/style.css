@@ -855,9 +855,15 @@ background-color: #F34A53;
 .mobile-menu {
 	display: none;
 }
+.desktop-menu {
+	display: block;
+}
 }
 @media only screen and (max-width: 768px) {
 
+.mobile-menu {
+	display:block;
+}
 .desktop-menu {
 	display: none;
 }
