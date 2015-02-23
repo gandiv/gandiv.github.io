@@ -444,6 +444,15 @@ $( ".work-diamond" ).hover(function() {
 	});
 
 		$( document ).ready(function() {
+		
+		$( ".work-diamond a" ).on( "click", function() {
+		$("body").addClass("stop-scroll");
+				});
+
+
+		$( ".close_project a" ).on( "click", function() {
+		$("body").removeClass("stop-scroll");
+				});
 
 
 		$( "#mobile-menu-button" ).on( "click", function() {

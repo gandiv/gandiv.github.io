@@ -25,7 +25,9 @@ body {
   -webkit-font-smoothing: antialiased; 
 /*   height:100%; */
 }
-
+.stop-scroll {
+	overflow: hidden;
+}
 span {
 	  font-family: 'Roboto Slab', serif;  
   font-size: 1.6rem;
