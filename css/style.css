@@ -741,6 +741,7 @@ cursor:pointer; }
      opacity: 0;
      transition: opacity 0.5s;
      top:0;
+     display:none;
 /*      overflow: scroll; */
 }
 .project:before {
@@ -752,6 +753,7 @@ cursor:pointer; }
 	z-index: 1000;
 	opacity: 1;
 	overflow: auto; 
+	display: block;
 }
 
 
