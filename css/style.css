@@ -23,7 +23,7 @@ body {
   font-weight: 300;
   color: #fff;
   -webkit-font-smoothing: antialiased; 
-  -webkit-overflow-scrolling: auto;
+  /*-webkit-overflow-scrolling: auto;*/
 
 /*   height:100%; */
 }
