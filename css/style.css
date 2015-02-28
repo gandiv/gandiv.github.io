@@ -23,10 +23,14 @@ body {
   font-weight: 300;
   color: #fff;
   -webkit-font-smoothing: antialiased; 
+  -webkit-overflow-scrolling: touch;
+
 /*   height:100%; */
 }
 .stop-scroll {
 	overflow: hidden;
+	-webkit-overflow-scrolling: none;
+
 }
 span {
 	  font-family: 'Roboto Slab', serif;  
